@@ -44,7 +44,7 @@ This method is much more complex; you need good knowledge of memory management a
 + Go to the File menu -> New -> "Other..." -> "Bluesofts XLL Add-in"
 + Declare your XLL add-in information. Click "Create".
 <p align="center">
-<img width="70%" height="512" alt="BSXLLAddin02" src="https://github.com/user-attachments/assets/e50658d1-eaca-4fa7-9891-b002a55a34f0" />
+<img width="90%" height="512" alt="BSXLLAddin02" src="https://github.com/user-attachments/assets/e50658d1-eaca-4fa7-9891-b002a55a34f0" />
 
 
 <img width="492" height="358" alt="BSXLLAddin03" src="https://github.com/user-attachments/assets/0ea5167c-983d-4fbe-8469-f91095c7dd5c" />
@@ -52,7 +52,7 @@ This method is much more complex; you need good knowledge of memory management a
 
 The system will create a sample project with example functions for you to understand and follow.
 <p align="center">
-<img width="70%" height="726" alt="BSXLLAddin06" src="https://github.com/user-attachments/assets/04b6c27d-1230-4e7d-b0f9-a0886a5712b6" />
+<img width="90%" height="726" alt="BSXLLAddin06" src="https://github.com/user-attachments/assets/04b6c27d-1230-4e7d-b0f9-a0886a5712b6" />
 
 </p>
 
