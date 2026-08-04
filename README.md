@@ -2,8 +2,7 @@
 Version: 1.0.0 - Updated 2026-07-30
 
 (English)
-**INTRODUCTION TO "BSXLLAddin"
-**
+**INTRODUCTION TO "BSXLLAddin"**
 "BSXLLAddin" is a library that supports creating XLL add-ins for Excel in Delphi or C++ Builder in the easiest way.
 "BSXLLAddin" allows you to create UDF functions in two ways:
 
@@ -39,11 +38,12 @@ end;
 + Method 2: Creating functions using the "C API in Excel" style
 This method is much more complex; you need good knowledge of memory management and pointer types.
 
-**HOW TO CREATE XLL USING "Bluesofts XLL Add-in"
-**+ Go to the File menu -> New -> "Other..." -> "Bluesofts XLL Add-in"
+**HOW TO CREATE XLL USING "Bluesofts XLL Add-in"**
++ Go to the File menu -> New -> "Other..." -> "Bluesofts XLL Add-in"
 + Declare your XLL add-in information. Click "Create".
 <p align="center">
 <img width="782" height="512" alt="BSXLLAddin02" src="https://github.com/user-attachments/assets/e50658d1-eaca-4fa7-9891-b002a55a34f0" />
+
 
 <img width="492" height="358" alt="BSXLLAddin03" src="https://github.com/user-attachments/assets/0ea5167c-983d-4fbe-8469-f91095c7dd5c" />
 </p>
