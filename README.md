@@ -28,7 +28,7 @@ begin
 	//-----------------
 end;
 ```
-<img width="1126" height="584" alt="BSXLLAddin_MySum" src="https://github.com/user-attachments/assets/d6957954-79a6-4d64-9728-4c7f8064aca1" />
+<img width="70%" height="584" alt="BSXLLAddin_MySum" src="https://github.com/user-attachments/assets/d6957954-79a6-4d64-9728-4c7f8064aca1" />
 
 
 (*) This method requires the following:
