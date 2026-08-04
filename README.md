@@ -1,7 +1,6 @@
 # BSXLLAddin - BLUESOFTS XLL ADD-IN BUILDER
 Version: 1.0.0 - Updated 2026-07-30
 
-(English)
 **INTRODUCTION TO "BSXLLAddin"**
 
 "BSXLLAddin" is a library that supports creating XLL add-ins for Excel in Delphi or C++ Builder in the easiest way.
@@ -29,8 +28,9 @@ begin
 	//-----------------
 end;
 ```
-<img width="50%" height="584" alt="BSXLLAddin_MySum" src="https://github.com/user-attachments/assets/d6957954-79a6-4d64-9728-4c7f8064aca1" />
-
+<p align="center">
+<img width="70%" height="584" alt="BSXLLAddin_MySum" src="https://github.com/user-attachments/assets/d6957954-79a6-4d64-9728-4c7f8064aca1" />
+</p>
 
 (*) This method requires the following:
 	- The function must return an OleVariant type and have a "stdcall" declaration at the end.
@@ -44,41 +44,34 @@ This method is much more complex; you need good knowledge of memory management a
 + Go to the File menu -> New -> "Other..." -> "Bluesofts XLL Add-in"
 + Declare your XLL add-in information. Click "Create".
 <p align="center">
-<img width="782" height="512" alt="BSXLLAddin02" src="https://github.com/user-attachments/assets/e50658d1-eaca-4fa7-9891-b002a55a34f0" />
+<img width="70%" height="512" alt="BSXLLAddin02" src="https://github.com/user-attachments/assets/e50658d1-eaca-4fa7-9891-b002a55a34f0" />
 
 
 <img width="492" height="358" alt="BSXLLAddin03" src="https://github.com/user-attachments/assets/0ea5167c-983d-4fbe-8469-f91095c7dd5c" />
 </p>
 
 The system will create a sample project with example functions for you to understand and follow.
+<p align="center">
+<img width="70%" height="726" alt="BSXLLAddin06" src="https://github.com/user-attachments/assets/04b6c27d-1230-4e7d-b0f9-a0886a5712b6" />
 
+</p>
+
+It allows the creation of functions and macros with all the features that Microsoft has published in its "C API in Excel".
+**Function Types:**
++ ftVolatile
++ ftMacroSheet
++ ftFunctionSheet
++ ftThreadSafe //From Excel 2007
++ ftClusterSafe //From Excel 2010. Upgrade later
+
+**Macro Type**
++ mtInvisible
++ mtFunction
++ mtCommand
+
+This library updates the latest APIs from Microsoft's "C API in Excel".
+  
 If you need the PRO package with full features and author support during the XLL add-in creation process, contact:
 Author: Nguyen Duy Tuan - tuanktcdcn@yahoo.com - Tel: (+84) 904210337.
 
-//-----------(Ngôn gữ Việt Nam)---------------//
-GIỚI THIỆU "BSXLLAddin"
-"BSXLLAddin" là thư viện hỗ trợ tạo XLL add-in cho Excel trong Delphi hoặc C++ Builder theo cách dễ dàng nhất.
-"BSXLLAddin" cho phép bạn tạo các hàm UDF theo hai cách:
-+ Cách 1: Dùng ngôn ngữ Delphi cơ bản
-Cách này bạn cần dùng ngôn ngữ Delphi cơ bản, kiểu dữ liệu Delphi đã cung cấp để tạo ra các hàm theo kiểu Delphi là được. Ví dụ
 
-function MySum(const v1, v2: OleVariant): OleVariant; stdcall;
-begin
-	VariantInit(Result);
-	Result := v1 + v2;
-end;
-
-(*) Theo cách này yêu cầu như sau:
-	- Hàm trả về kiểu OleVariant và có khai báo "stdcall" ở cuối. 
-	- Các tham số phải khai báo "const" và kiểu phải là OleVariant.
-
-+ Cách 2: Tạo hàm theo kiểu "C API in Excel"
-Với cách này phức tạp hơn rất nhiều, bạn cần có kiến thức tốt về quản bộ nhớ và kiểu con trỏ - pointer.
-
-CÁCH TẠO XLL BẰNG "BSXLLAddin"
-+ Vào menu File -> New -> "Other..." -> "Bluesofts XLL Add-in"
-+ Khai báo thông tin xll add-in của bạn. Bấm "Create".
-Hệ thống tạo cho bạn dữ án mẫu với các hàm ví dụ để bạn hiểu và làm theo.
-
-Nếu cần gói PRO với full tính năng, được tác giả hỗ trợ trong quá trình tạo xll add-in liên hệ:
-Tác giả: Nguyễn Duy Tuân - tuanktcdcn@yahoo.com - Tel: (+84) 904210337.
