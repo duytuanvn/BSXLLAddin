@@ -9,7 +9,7 @@ INTRODUCTION TO "BSXLLAddin"
 
 + Method 1: Using basic Delphi language
 With this method, you need to use basic Delphi language and the data types provided by Delphi to create functions in Delphi style. For example:
-
+```pascal
 function MySum(const v1, v2: OleVariant): OleVariant; stdcall;
 begin
 	VariantInit(Result);
