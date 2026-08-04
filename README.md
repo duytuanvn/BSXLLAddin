@@ -15,7 +15,23 @@ begin
 	VariantInit(Result);
 	Result := v1 + v2;
 end;
+
+procedure TBSMyXLL.OnAddFunctions(AFunctions: TBSFunctions);
+var
+	fn: TBSFunction;
+begin
+	//3. Add UDF function MySum()
+	fn := AFunctions.Add('MySum', @MySum);
+	fn.Function_help := 'The function returns the sum of a + b.';
+		//Add parameters to the function.
+	fn.Params.Add('A', 'Enter a number > 0');
+	fn.Params.Add('B', 'Enter numbers > 0 and < 100');
+	//-----------------
+end;
 ```
+<img width="1126" height="584" alt="BSXLLAddin_MySum" src="https://github.com/user-attachments/assets/d6957954-79a6-4d64-9728-4c7f8064aca1" />
+
+
 (*) This method requires the following:
 	- The function must return an OleVariant type and have a "stdcall" declaration at the end.
 	- Parameters must be declared as "const" and their type must be OleVariant.
