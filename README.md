@@ -15,7 +15,7 @@ begin
 	VariantInit(Result);
 	Result := v1 + v2;
 end;
-
+```
 (*) This method requires the following:
 	- The function must return an OleVariant type and have a "stdcall" declaration at the end.
 	- Parameters must be declared as "const" and their type must be OleVariant.
