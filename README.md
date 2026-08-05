@@ -3,7 +3,7 @@ Version: 1.0.0 - Updated 2026-07-30
 
 **INTRODUCTION TO "BSXLLAddin"**
 
-"BSXLLAddin" is a library that supports creating XLL add-ins for Excel in Delphi or C++ Builder in the easiest way.
+"BSXLLAddin" is a library that supports creating XLL add-ins for Excel in Delphi in the easiest way.
 "BSXLLAddin" allows you to create UDF functions in two ways:
 
 + Method 1: Using basic Delphi language
