@@ -57,6 +57,7 @@ The system will create a sample project with example functions for you to unders
 </p>
 
 It allows the creation of functions and macros with all the features that Microsoft has published in its "C API in Excel".
+
 **Function Types:**
 + ftVolatile
 + ftMacroSheet
@@ -74,4 +75,10 @@ This library updates the latest APIs from Microsoft's "C API in Excel".
 If you need the PRO package with full features and author support during the XLL add-in creation process, contact:
 Author: Nguyen Duy Tuan - tuanktcdcn@yahoo.com - Tel: (+84) 904210337.
 
+### Video help:
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=BTbwxbC3huo" target="_blank">
+    <img src="https://img.youtube.com/vi/BTbwxbC3huo/hqdefault.jpg" alt="Xem video hướng dẫn" width="70%">
+  </a>
+</p>
