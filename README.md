@@ -44,7 +44,7 @@ This method is much more complex; you need good knowledge of memory management a
 + Go to the File menu -> New -> "Other..." -> "Bluesofts XLL Add-in"
 + Declare your XLL add-in information. Click "Create".
 <p align="center">
-<img width="90%" height="512" alt="BSXLLAddin02" src="https://github.com/user-attachments/assets/e50658d1-eaca-4fa7-9891-b002a55a34f0" />
+<img width="100%" height="512" alt="BSXLLAddin02" src="https://github.com/user-attachments/assets/e50658d1-eaca-4fa7-9891-b002a55a34f0" />
 </p>
 <p align="center">
 <img width="492" height="358" alt="BSXLLAddin03" src="https://github.com/user-attachments/assets/0ea5167c-983d-4fbe-8469-f91095c7dd5c" />
@@ -79,6 +79,9 @@ Author: Nguyen Duy Tuan - tuanktcdcn@yahoo.com - Tel: (+84) 904210337.
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=BTbwxbC3huo" target="_blank">
-    <img src="https://img.youtube.com/vi/BTbwxbC3huo/hqdefault.jpg" alt="Xem video hướng dẫn" width="70%">
+    <img src="https://img.youtube.com/vi/BTbwxbC3huo/hqdefault.jpg" alt="Video Tutorial" width="70%">
+    <br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube" width="120" style="margin-top: 10px;">
   </a>
+  <br>
 </p>
