@@ -21,6 +21,7 @@ var
 begin
 	//3. Add UDF function MySum()
 	fn := AFunctions.Add('MySum', @MySum);
+    //fn := AFunctions.Add('MySum', @MySum, True); //The third parameter is set to True, causing this UDF to run asynchronously. While the function is executing, #CALC! appears on the worksheet.
 	fn.Function_help := 'The function returns the sum of a + b.';
 		//Add parameters to the function.
 	fn.Params.Add('A', 'Enter a number > 0');
@@ -59,19 +60,22 @@ The system will create a sample project with example functions for you to unders
 It allows the creation of functions and macros with all the features that Microsoft has published in its "C API in Excel".
 
 **Function Types:**
-+ ftVolatile
-+ ftMacroSheet
-+ ftFunctionSheet
-+ ftThreadSafe //From Excel 2007
++ ftVolatile //Automatically re-run when the spreadsheet updates.
++ ftMacroSheet //Function with the macro attribute
++ ftFunctionSheet //Standard UDF running within a formula
++ ftThreadSafe //From Excel 2007: Allows execution within a thread.
 + ftClusterSafe //From Excel 2010. Upgrade later
 
 **Macro Type**
 + mtInvisible
-+ mtFunction
-+ mtCommand
++ mtFunction //Your function is a UDF called within a formula on the worksheet.
++ mtCommand //Your function is a macro that runs in "Sheet Macro4.0".
 
 This library updates the latest APIs from Microsoft's "C API in Excel".
-  
+
+**Benefits of using BSXLLAddin: **
+Regardless of your Delphi programming proficiency, you can easily create XLLs. The generated functions possess the full range of powerful attributes defined in Microsoft's "C API in Excel" (such as asynchronous execution, multithreading, etc.). The code is concise and convenient! There is no need for deep technical research—that is a task for senior specialists. You can dedicate 100% of your time to your business logic and UDFs!
+
 If you need the PRO package with full features and author support during the XLL add-in creation process, contact:
 Author: Nguyen Duy Tuan - tuanktcdcn@yahoo.com - Tel: (+84) 904210337.
 
