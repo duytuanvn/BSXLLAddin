@@ -102,21 +102,21 @@ end;
 { TBSMyXLL - INSTALL XLL ADD-IN }
 procedure TBSMyXLL.OnInstall;
 begin
-	MessageBoxW(GetActiveWindow, 'Đăng ký Add-In XLL thành công!'#13#10 +
-																 'XLL tạo từ thư viện "BSXLLAddin" trên trang www.bluesofts.net',
+	MessageBoxW(GetActiveWindow, 'XLL Add-In registered successfully!'#13#10 +
+																 'XLL created from the "BSXLLAddin" library at www.bluesofts.net',
 																 LPWSTR(AddinName),
 																 MB_OK + MB_ICONINFORMATION);
 end;
 
 procedure TBSMyXLL.OnUninstall;
 begin
-	MessageBoxW(GetActiveWindow, 'Đã gỡ bỏ Add-In XLL.',
+	MessageBoxW(GetActiveWindow, 'XLL Add-In uninstalled.',
 																 LPWSTR(AddinName),
 																 MB_OK + MB_ICONWARNING);
 end;
 
 initialization
-	MyXLLAddin := TBSMyXLL.Create('My Excel XLL Add-in',
+	MyXLLAddin := TBSMyXLL.Create('My Excel XLL Add-in for Lookup',
 																 'Author: Nguyễn Duy Tuân - https://bluesofts.net');
 
 finalization
