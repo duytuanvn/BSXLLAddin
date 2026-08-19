@@ -40,7 +40,7 @@ end;
 + Method 2: Creating functions using the "C API in Excel" style
 This method is much more complex; you need good knowledge of memory management and pointer types.
 
-**HOW TO CREATE XLL USING "Bluesofts XLL Add-in" in Delphi**
+**HOW TO CREATE XLL IN DELPHI USING "Bluesofts XLL Add-in"**
 + Run Delphi (You can use the CE version) (Rad Studio)
 + Go to the File menu -> New -> "Other..." -> "Bluesofts XLL Add-in"
 + Declare your XLL add-in information. Click "Create".
