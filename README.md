@@ -77,8 +77,8 @@ This library updates the latest APIs from Microsoft's "C API in Excel".
 
 Regardless of your Delphi programming proficiency, you can easily create XLLs. The generated functions possess the full range of powerful attributes defined in Microsoft's "C API in Excel" (such as asynchronous execution, multithreading, etc.). The code is concise and convenient! There is no need for deep technical research—that is a task for senior specialists. You can dedicate 100% of your time to your business logic and UDFs!
 
-If you need the PRO package with full features and author support during the XLL add-in creation process, contact:
-Author: Nguyen Duy Tuan - tuanktcdcn@yahoo.com - Tel: (+84) 904210337.
+If you need a package with full features and author support during the XLL add-in creation process, contact:
+Author: Nguyen Duy Tuan - tuanktcdcn@yahoo.com.
 
 ### Video help:
 
